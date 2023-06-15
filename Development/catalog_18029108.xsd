@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!--Defining root tag vehicleShop-->
+	<xs:element name="vehicleShop">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="shopDetails"/>
+				<xs:element ref="vehicle"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="shopDetails">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="logo"/>
+				<xs:element ref="sname"/>
+				<xs:element ref="address"/>
+				<xs:choice>
+					<xs:element name="ZIPcode" type="xs:integer"/>
+					<xs:element name="postalCode" type="xs:integer"/> 
+				</xs:choice>
+				<xs:element ref="phnNo"/>
+				<xs:element ref="website"/>
+				<xs:element ref="tagline"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="logo"/>
+	<xs:element name="sname" type="xs:string"/>
+	<xs:element name="address" type="xs:string"/>
+	<xs:element name="phnNo" type="xs:integer"/>
+	<xs:element name="website" type="xs:string"/>
+	<xs:element name="tagline" type="xs:string"/>
+	
+	
+	<!--defining vehicle tag which is inside vehicleShop tag-->
+	<xs:element name="vehicle">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="car" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<!--defining car tag which is inside cars tag-->
+	<xs:element name="car">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="description"/>
+				<xs:element ref="summary"/>
+			</xs:sequence>
+		<xs:attribute ref="carId" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="picture">
+		<xs:complexType>
+			<xs:attribute name="number" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="summary" type="xs:string"/>
+	<xs:attribute name="carId" type="xs:string"/>
+
+	
+	
+	<!--Defining description tag which is inside car tag-->
+	<xs:element name="description">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="picture"/>
+				<xs:element ref="modelName"/>
+				<xs:element ref="vehicleType"/>
+				<xs:element ref="brand"/>
+				<xs:element ref="color"/>
+				<xs:element ref="mileage"/>
+				<xs:element ref="fuelType"/>
+				<xs:element ref="fuelCapacity"/>
+				<xs:choice>
+					<xs:element name="cc" type="xs:integer"/>
+					<xs:element name="powerOutput" type="xs:integer"/> 
+				</xs:choice>
+				<xs:element ref="horsepower"/>
+				<xs:element ref="transmission"/>
+				<xs:element ref="seat"/>
+				<xs:element ref="wheelDrive"/>
+				<xs:element ref="odometerReading"/>
+				<xs:element ref="quantity"/>
+				<xs:element ref="price"/>
+				<xs:element ref="dimension"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="quantity" type="xs:integer"/>
+	<xs:element name="odometerReading">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="distanceUnit" type="xs:string"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="price">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:integer">
+					<xs:attribute name="priceUnit" type="xs:string"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="modelName" type="xs:string"/>
+	<xs:element name="color" type="xs:string"/>
+	<xs:element name="horsepower" type="xs:integer"/>
+	<xs:element name="dimension">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="length" type="xs:string"/>
+				<xs:element name="width" type="xs:string"/>
+				<xs:element name="height" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="vehicleType">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Sedan" />
+				<xs:enumeration value="SUV" />
+				<xs:enumeration value="Hatchback" />
+				<xs:enumeration value="Sports" />
+				<xs:enumeration value="Van" />
+				<xs:enumeration value="Luxury" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="brand">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Toyota"/>
+				<xs:enumeration value="Maruti"/>
+				<xs:enumeration value="Datsun"/>
+				<xs:enumeration value="Nissan"/>
+				<xs:enumeration value="Suzuki"/>
+				<xs:enumeration value="Volkswagen"/>
+				<xs:enumeration value="Honda"/>
+				<xs:enumeration value="Tata"/>
+				<xs:enumeration value="Hyundai"/>
+				<xs:enumeration value="Ford"/>
+				<xs:enumeration value="Tesla"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="wheelDrive">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="4 Wheeldrive"/>
+				<xs:enumeration value="Front Wheeldrive"/>
+				<xs:enumeration value="Rear Wheeldrive"/>
+				<xs:enumeration value="Full Wheeldrive"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="fuelCapacity">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:double">
+					<xs:attribute name="unit" type="xs:string"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="mileage">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:double">
+					<xs:attribute name="unit" type="xs:string"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="fuelType">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Petrol"/>
+				<xs:enumeration value="Diesel"/>
+				<xs:enumeration value="Hybrid"/>
+				<xs:enumeration value="Electric"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="transmission">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Manual"/>
+				<xs:enumeration value="Automatic"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="seat">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minExclusive value="1"/>
+				<xs:maxExclusive value="20"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

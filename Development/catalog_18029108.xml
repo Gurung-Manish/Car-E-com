@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_18029108.css"?>
+<vehicleShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="catalog_18029108.xsd">
+	<shopDetails>
+		<logo></logo>	
+		<sname>HAMRO GADI</sname>
+		<address>Simalchaur, Pokara-8</address>
+		<postalCode>3300</postalCode>
+		<phnNo>06155789</phnNo>
+		<website>www.nepaliautomobile.com</website>
+		<tagline>"Car for all"</tagline>
+	</shopDetails>
+	<vehicle>
+		<car carId="0011">
+			<description>
+				<picture number="1"></picture>
+				Model Name: <modelName>Ford EcoSport</modelName>
+				Vehicle Type: <vehicleType>SUV</vehicleType>
+				Brand: <brand>Ford</brand>
+				Color: <color>Moondust Silver</color>	
+				Mileage:<mileage unit="kmpl">21.7</mileage>
+				Fuel Type:<fuelType>Diesel</fuelType>
+				Fuel Capacity:<fuelCapacity unit="litre">52</fuelCapacity>
+				CC:<cc>1498</cc>
+				Horsepower:<horsepower>116</horsepower>
+				Transmission:<transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>4 Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">10000</odometerReading>
+				Quantity: <quantity>2</quantity>
+				Price: <price priceUnit="NPR">3500000</price>
+				Dimension:<dimension>
+					<length>157.4 inches (L)</length>
+					<width>69.49 inches(W)</width>
+					<height>64.84 inches(H)</height>
+				</dimension>
+			</description>
+			
+			<summary>The 2020 EcoSport is designed to help you move freely. Its compact size and available 
+			Intelligent 4WD are perfect for maneuvering new terrains. No matter where you go, EcoSport comes 
+			prepared and in style with a comfortable interior and intelligent technology to help you take on the world.</summary>
+		</car>
+		
+		<car carId="0022">
+			<description>
+				<picture number="2"></picture>
+				Model Name: <modelName>Ford EcoSport</modelName>
+				Vehcile Type: <vehicleType>SUV</vehicleType>
+				Brand: <brand>Ford</brand>
+				Color: <color>Lightning Blue</color>
+				Mileage: <mileage unit="kmpl">500</mileage>
+				Fuel Type: <fuelType>Petrol</fuelType>
+				Fuel Capacity: <fuelCapacity unit="litre">52</fuelCapacity>
+				CC: <cc>1498</cc>
+				Horsepower: <horsepower>116</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>4 Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">15000</odometerReading>
+				Quantity: <quantity>1</quantity>
+				Price: <price priceUnit="NPR">3400000</price>
+				Dimension:<dimension>
+					<length>157.4 inches (L)</length>
+					<width>69.49 inches (W)</width>
+					<height>64.84 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>The 2020 EcoSport is designed to help you move freely. Its compact size and available 
+			Intelligent 4WD are perfect for maneuvering new terrains. No matter where you go, EcoSport comes 
+			prepared and in style with a comfortable interior and intelligent technology to help you take on the world.</summary>
+		</car>
+		
+		<car carId="0123">
+			<description>
+				<picture number="3"></picture>
+				Model Name: <modelName>Toyota Hiace</modelName>
+				Vehicle Type: <vehicleType>Van</vehicleType>
+				Brand: <brand>Toyota</brand>
+				Color: <color>White Pearl Crystal Shine -CH</color>
+				Mileage: <mileage unit="kmpl">12</mileage>
+				Fuel Type: <fuelType>Diesel</fuelType>
+				Fuel Capacity: <fuelCapacity unit="litre">65</fuelCapacity>
+				CC: <cc>2982</cc>
+				Horsepower: <horsepower>503</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Rear Wheeldrive</wheelDrive>
+				Distance Covered:<odometerReading distanceUnit="km">20000</odometerReading>
+				Quantity: <quantity>2</quantity>
+				Price: <price priceUnit="NPR">10800000</price>
+				Dimension:<dimension>
+					<length>208.6 inches (L)</length>
+					<width>74.01 inches (W)</width>
+					<height>89.9 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>Toyota Hiace Commuter Bus is virtually a luxury coach! With individual bucket seats and two 
+			seater bench seats throughout. When you drive for a living, there's no room in the operating budget 
+			for a vehicle that's expensive to run. That's why the Hiace boasts low running costs. </summary>
+		</car>
+		
+		<car carId="0124">
+			<description>
+				<picture number="4"></picture>
+				Model Name: <modelName>Tesla Model S</modelName>
+				Vehicle Type: <vehicleType>Luxury</vehicleType>
+				Brand: <brand>Tesla</brand>
+				Color: <color>Red</color>
+				Mileage: <mileage unit="kmpc">400</mileage>
+				Fuel Type: <fuelType>Electric</fuelType>
+				Fuel Capacity: <fuelCapacity unit="kWh">75</fuelCapacity>
+				Power Output: <powerOutput>825</powerOutput>
+				Horsepower: <horsepower>259</horsepower>
+				Transmission: <transmission>Automatic</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Full Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">20000</odometerReading>
+				Quantity: <quantity>2</quantity>
+				Price: <price priceUnit="NPR">10800000</price>
+				Dimension:<dimension>
+					<length>208.6 inches (L)</length>
+					<width>74.01 inches (W)</width>
+					<height>89.9 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>Model S sets an industry standard for performance and safety. 
+			Tesla’s all-electric powertrain delivers unparalleled performance in all weather conditions.Model S can get you 
+			anywhere you want to go—with industry-leading range and convenient charging options, all over the world.</summary>
+		</car>
+		
+		<car carId="0155">
+			<description>
+				<picture number="5"></picture>
+				Model Name: <modelName>Baleno</modelName>
+				Vehicle Type: <vehicleType>Hatchback</vehicleType>
+				Brand: <brand>Maruti</brand>
+				Color: <color>Nexa Blue</color>
+				Mileage: <mileage unit="kmpl">27.4</mileage>
+				Fuel Type: <fuelType>Diesel</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">37</fuelCapacity>
+				CC: <cc>1248</cc>
+				Horsepower: <horsepower>109</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Front Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">20000</odometerReading>
+				Quantity: <quantity>2</quantity>
+				Price: <price priceUnit="NPR">3200000</price>
+				Dimension:<dimension>
+					<length>157 inches (L)</length>
+					<width>69 inches (W)</width>
+					<height>60 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>Some notable features on offer are a 7.0-inch touchscreen infotainment system, Smartplay 
+			Studio App with Apple CarPlay and Android Auto, automatic climate control, steering-mounted audio controls,
+			LED projector headlamps, 16-inch alloy wheels, dual airbags, ABS+EBD, seatbelts with pretensioner and force limiters, 
+			and ISOFIX mounts. In terms of features, Maruti Suzuki has changed the touchscreen on the top-spec Alpha variant.</summary>
+		</car>
+		
+		<car carId="0666">
+			<description>
+				<picture number="6"></picture>
+				Model Name: <modelName>Datson Go</modelName>
+				Vehicle Type: <vehicleType>Hatchback</vehicleType>
+				Brand: <brand>Datsun</brand>
+				Color: <color>Amber Orange</color>
+				Mileage: <mileage unit="kmpl">20.1</mileage>
+				Fuel Type: <fuelType>Petrol</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">37</fuelCapacity>
+				CC: <cc>1198</cc>
+				Horsepower: <horsepower>68</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Front Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">30000</odometerReading>
+				Quantity: <quantity>3</quantity>
+				Price: <price priceUnit="NPR">1900000</price>
+				Dimension:<dimension>
+					<length>150 inches (L)</length>
+					<width>64.3 inches (W)</width>
+					<height>58.4 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>Some notable features on offer are a 7.0-inch touchscreen infotainment system, Smartplay 
+			Studio App with Apple CarPlay and Android Auto, automatic climate control, steering-mounted audio controls,
+			LED projector headlamps, 16-inch alloy wheels, dual airbags, ABS+EBD, seatbelts with pretensioner and force limiters, 
+			and ISOFIX mounts. In terms of features, Maruti Suzuki has changed the touchscreen on the top-spec Alpha variant.</summary>
+		</car>
+		
+		<car carId="0277">
+			<description>
+				<picture number="7"></picture>
+				Model Name: <modelName>Volkswagen Polo</modelName>
+				Vehicle Type: <vehicleType>Hatchback</vehicleType>
+				Brand: <brand>Volkswagen</brand>
+				Color: <color>Carbon Steel</color>
+				Mileage: <mileage unit="kmpl">21.4</mileage>
+				Fuel Type: <fuelType>Diesel</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">45</fuelCapacity>
+				CC: <cc>1498</cc>
+				Horsepower: <horsepower>68</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Front Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">25000</odometerReading>
+				Quantity: <quantity>5</quantity>
+				Price: <price priceUnit="NPR">2400000</price>
+				Dimension:<dimension>
+					<length>150 inches (L)</length>
+					<width>64.3 inches (W)</width>
+					<height>58.4 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>The Polo Treandline has been designed to give you the essentioals of what makes a Volkswagen.
+			Made using the best of German engeneering, the Polo Trendline variant features many sagety and technology featiures
+			like dual front airbags, ABS, front disc brakes and much more.</summary>
+		</car>
+		
+		<car carId="0118">
+			<description>
+				<picture number="8"></picture>
+				Model Name: <modelName>Volkswagen Tiguan</modelName>
+				Vehicle Type: <vehicleType>SUV</vehicleType>
+				Brand: <brand>Volkswagen</brand>
+				Color: <color>Ruby Red Mettalic</color>
+				Mileage: <mileage unit="kmpl">16.6</mileage>
+				Fuel Type: <fuelType>Diesel</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">71</fuelCapacity>
+				CC: <cc>1968</cc>
+				Horsepower: <horsepower>184</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Full Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">20000</odometerReading>
+				Quantity: <quantity>5</quantity>
+				Price: <price priceUnit="NPR">12500000</price>
+				Dimension:<dimension>
+					<length>150 inches (L)</length>
+					<width>64.3 inches (W)</width>
+					<height>58.4 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>Tiguan offers you the comfort and convenience accustomed in Volkswagen brand of world class
+			vehicles. The ergonomics interior with tangibly high quality that you feel at ease and have everything
+			at your fingertips from the very first moment. The Power seat adjustment with memory feature
+			seating system makes the Tiguan the perfect Vehicle for all kinds of luxury.</summary>
+		</car>
+		
+		<car carId="1999">
+			<description>
+				<picture number="9"></picture>
+				Model Name: <modelName>Swift</modelName>
+				Vehicle Type: <vehicleType>SUV</vehicleType>
+				Brand: <brand>Suzuki</brand>
+				Color: <color>Solid Fire Red</color>
+				Mileage: <mileage unit="kmpl">22</mileage>
+				Fuel Type: <fuelType>Petrol</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">37</fuelCapacity>
+				CC: <cc>1197</cc>
+				Horsepower: <horsepower>101</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Full Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">20000</odometerReading>
+				Quantity: <quantity>1</quantity>
+				Price: <price priceUnit="NPR">2800000</price>
+				Dimension:<dimension>
+					<length>151 inches (L)</length>
+					<width>68 inches (W)</width>
+					<height>60 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>The Swift has been one of the best selling cars. The first generation of Swift which was launched 
+			back in 2005 was an instant success. The second generation of the Swift was no different. With more elements,
+			both in the interior and exterior, and better cosmetics, the second generation of the Swift was also popular 
+			and had managed to win many prestigious awards.</summary>
+		</car>
+		
+		<car carId="1010">
+			<description>
+				<picture number="10"></picture>
+				Model Name: <modelName>Honda City</modelName>
+				Vehicle Type: <vehicleType>Sedan</vehicleType>
+				Brand: <brand>Honda</brand>
+				Color: <color>Dark Ruby Red Pearl</color>
+				Mileage: <mileage unit="kmpl">25.6</mileage>
+				Fuel Type: <fuelType>Petrol</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">40</fuelCapacity>
+				CC: <cc>1497</cc>
+				Horsepower: <horsepower>101</horsepower>
+				Transmission: <transmission>Automatic</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Full Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">20000</odometerReading>
+				Quantity: <quantity>2</quantity>
+				Price: <price priceUnit="NPR">3500000</price>
+				Dimension:<dimension>
+					<length>174 inches (L)</length>
+					<width>66 inches (W)</width>
+					<height>58 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>Advanced mobility is in your hands with The All-New Honda City. Designed in line with a vision that
+			is ahead of its time, utilizing cutting-edge driving innovations and delivering outstanding comfort features.</summary>
+		</car>
+		
+		<car carId="1111">
+			<description>
+				<picture number="11"></picture>
+				Model Name: <modelName>Tata Tiago</modelName>
+				Vehicle Type: <vehicleType>Hatchback</vehicleType>
+				Brand: <brand>Tata</brand>
+				Color: <color>Sunburst Orange</color>
+				Mileage: <mileage unit="kmpl">23.84</mileage>
+				Fuel Type: <fuelType>Petrol</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">35</fuelCapacity>
+				CC: <cc>1199</cc>
+				Horsepower: <horsepower>101</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Full Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">20000</odometerReading>
+				Quantity: <quantity>1</quantity>
+				Price: <price priceUnit="NPR">2500000</price>
+				Dimension:<dimension>
+					<length>148 inches (L)</length>
+					<width>66 inches (W)</width>
+					<height>94 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>The Tata Tiago was born as the successor of the previous Tata Bolt, which was nothing but a heavy restyling of
+			Tata Indica Vista. Like the Indica Vista, even the Bolt did not get the desired success and Tata began designing a completely
+			new vehicle (Kite project) of a city car with 5-door body that could boost the sales of the brand in the territory.</summary>
+		</car>
+		
+		<car carId="1212">
+			<description>
+				<picture number="12"></picture>
+				Model Name: <modelName>Tata Tigor</modelName>
+				Vehicle Type: <vehicleType>Sedan</vehicleType>
+				Brand: <brand>Tata</brand>
+				Color: <color>Arizona Blue</color>
+				Mileage: <mileage unit="kmpl">20.3</mileage>
+				Fuel Type: <fuelType>Petrol</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">35</fuelCapacity>
+				CC: <cc>1199</cc>
+				Horsepower: <horsepower>101</horsepower>
+				Transmission: <transmission>Automatic</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Front Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">20000</odometerReading>
+				Quantity: <quantity>1</quantity>
+				Price: <price priceUnit="NPR">2000000</price>
+				Dimension:<dimension>
+					<length>154.8 inches (L)</length>
+					<width>66.02 inches (W)</width>
+					<height>60.31 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>The Petrol engine is 1199 cc. It is available with the Manual and Automatic transmission. Depending upon the variant
+			and fuel type the Tigor has a mileage of 20.3 kmpl. The Tigor is a 5 seater Sedan and has a length of 3993mm, width of 1677mm
+			and a wheelbase of 2450mm.</summary>
+		</car>
+		
+		
+		<car carId="1331">
+			<description>
+				<picture number="13"></picture>
+				Model Name: <modelName>X-Trial</modelName>
+				Vehicle Type: <vehicleType>SUV</vehicleType>
+				Brand: <brand>Nissan</brand>
+				Color: <color>Diamond Black</color>
+				Mileage: <mileage unit="kmpl">14.42</mileage>
+				Fuel Type: <fuelType>Petrol</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">60</fuelCapacity>
+				CC: <cc>1997</cc>
+				Horsepower: <horsepower>135</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Full Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">30000</odometerReading>
+				Quantity: <quantity>1</quantity>
+				Price: <price priceUnit="NPR">10000000</price>
+				Dimension:<dimension>
+					<length>182.6 inches (L)</length>
+					<width> 71.6 inches (W)</width>
+					<height>67.32 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>Share the joys of family life in a bigger, bolder SUV. X-Trail delivers muscular styling, solid capabilities, next-level 
+			technologies and all the comfort and flexibility you need for action-packed adventures with the kids.</summary>
+		</car>
+		
+		<car carId="1441">
+			<description>
+				<picture number="14"></picture>
+				Model Name: <modelName>Micra Active</modelName>
+				Vehicle Type: <vehicleType>Hatchback</vehicleType>
+				Brand: <brand>Nissan</brand>
+				Color: <color>Brick Red</color>
+				Mileage: <mileage unit="kmpl">19.69</mileage>
+				Fuel Type: <fuelType>Petrol</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">60</fuelCapacity>
+				CC: <cc>1198</cc>
+				Horsepower: <horsepower>109</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Front Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">15000</odometerReading>
+				Quantity: <quantity>1</quantity>
+				Price: <price priceUnit="NPR">2000000</price>
+				Dimension:<dimension>
+					<length>150.5 inches (L)</length>
+					<width> 65.5 inches (W)</width>
+					<height>60.23 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>The Nissan Micra Active with a new rear bumper, steering wheel mounted with audio controls, piano black facia, Bluetooth 
+			enabled audio system and driver seat height adjustment is the intelligent choice for a smart generation.</summary>
+		</car>
+		
+		<car carId="1551">
+			<description>
+				<picture number="15"></picture>
+				Model Name: <modelName>Nissan Kicks</modelName>
+				Vehicle Type: <vehicleType>SUV</vehicleType>
+				Brand: <brand>Nissan</brand>
+				Color: <color>Deep blue pearl</color>
+				Mileage: <mileage unit="kmpl">19.69</mileage>
+				Fuel Type: <fuelType>Petrol</fuelType>
+				Fuel Capacity: <fuelCapacity unit="l">60</fuelCapacity>
+				CC: <cc>1461</cc>
+				Horsepower: <horsepower>122</horsepower>
+				Transmission: <transmission>Manual</transmission>
+				Seat: <seat>5</seat>
+				Wheeldrive: <wheelDrive>Front Wheeldrive</wheelDrive>
+				Distance Covered: <odometerReading distanceUnit="km">15000</odometerReading>
+				Quantity: <quantity>1</quantity>
+				Price: <price priceUnit="NPR">5000000</price>
+				Dimension:<dimension>
+					<length>172.59 inches (L)</length>
+					<width> 71.37 inches (W)</width>
+					<height>65 inches (H)</height>
+				</dimension>
+			</description>
+			<summary>With Nissan Intelligent Mobility at its core, the new Nissan KICKS combines bold stance, progressive interiors and first-in-class
+			connected car technology that makes your every drive better.</summary>
+		</car>
+	</vehicle>
+</vehicleShop>
